@@ -1,3 +1,14 @@
+> **VMastir prototype:** This repository currently builds the unmodified Podroid
+> v1.2.9 Linux VM engine as a starting point for research. It boots Alpine Linux,
+> **not Android**. Android guest support, a guest-root option, and performance on
+> the POCO X7 Pro have not been implemented or tested. The APK retains Podroid's
+> name and application ID; it is not yet a VMastir Android VM. Source: [Podroid
+> v1.2.9](https://github.com/ExTV/Podroid/tree/v1.2.9), GPLv2; see LICENSE and
+> CREDITS.md. Use only on a test device and review the networking and SSH settings.
+>
+> Build the debug APK with the **VM engine prototype** GitHub Actions workflow.
+> Its artifact is an experimental Linux VM build, not an Android guest.
+
 <div align="center">
 
 <img src="docs/logo.png" alt="Podroid logo" width="120" />
